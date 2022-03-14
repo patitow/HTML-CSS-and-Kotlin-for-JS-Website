@@ -7,22 +7,50 @@
       name="Matheus Oliveira - Projeto de LPF"
       content="Projeto de LPF com HTML, CSS e Kotlin"
     />
+    <style type="text/css">
+      .top{
+            padding: 2%;
+            margin: 2%;
+            font-size: 200%;
+            font-weight: 700;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            justify-content: center;
+            text-align: center;
+            background-color: aliceblue;
+            height: minmax(10%,50%);
+            border: 1rem hidden;
+            border-radius: 10px;
+        }
+      .grid-container {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: minmax(200px, auto) minmax(200px, auto) minmax(200px, auto);
+        gap: 10px;
+        
+        grid-auto-rows: minmax(50px, auto);
+      }
+      .grid-item {
+        padding: 2px;
+        margin: 2px;
+        font-size: large;
+        font-weight: 700;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        justify-content: center;
+        text-align: center;
+      }
+    </style>
   </head>
 
   <body>
-    <h1 align="center">
-      Formulário - Matheus Oliveira
-      <br />
-      <a href="homepage.html"><image src="svg/home.svg" width="80px" title="Homepage"></image></a>
-      <br>
-      Homepage
-      <br>
-      <a href="tagsteste.html"><image src="svg/tag.svg" width="80px" title="Tags test"></image></a>
-      <br>
-      Tags test
-      <br>
-      <hr>
-    </h1>
+    <h1 class="top">Formularies - Matheus Oliveira</h1>
+    <div class="grid-container">
+        <div class="grid-item"><a href="https://github.com/Patitow"><image src="svg/github.svg" width="100rem" title="Github"></image></a></div>
+        <div class="grid-item"><a href="homepage.html"><image src="svg/home.svg" width="100rem" title="Homepage"></image></a></div>
+        <div class="grid-item"><a href="contenthub.html"><image src="svg/hub.svg" width="100rem" title="Content Hub"></image></a></div>
+        <div class="grid-item">Github</div>
+        <div class="grid-item">Homepage</div>
+        <div class="grid-item">Content Hub</div>
+    </div>
     <div align="center">
       <!-- Essa pratica do name denuncia a senha e o login via url, não é segura!!-->
       <h2>Login</h2>
