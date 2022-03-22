@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+  }
+  .top{
+        padding: 2%;
+        margin: 0%;
+        font-size: 200%;
+        font-weight: 700;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        justify-content: space-between;
+        align-content: flex-start;
+        text-align: left;
+        color:white;
+        background-color: rgb(39, 39, 39);
+        height: minmax(10%,50%);
+        border: 1rem hidden;
+        border-radius: 0px;
+        display: flex;
+    }
+  .grid-container {
+    padding: 2%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: minmax(200px, auto) minmax(200px, auto);
+    gap: 10px;
+    
+    grid-auto-rows: minmax(50px, auto);
+  }
+  .grid-item {
+    padding: 2px;
+    margin: 2px;
+    font-size: large;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    text-align: center;
+  }
+  .tec{
+    padding: 2px;
+    margin: 2px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    text-align: center;
+  }
+  #subtext{
+    font-weight: 500;
+  }
+  #last{
+    padding: 2px;
+    margin: 2px;
+    font-size:0.8rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content:flex-end;
+    text-align: center;
+    padding:15rem 0 0 0;
+  }
