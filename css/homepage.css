@@ -8,22 +8,32 @@
 a{
   color: rgb(247, 125, 55);
 }
+footer{
+  color: black;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 2%;
+  width: 100%;
+  background-color: rgb(231, 231, 231);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 80%;
+  font-weight: 400;
+}
 .top {
-  padding:1%;
+  padding:1% 1% 1% 1%;
   display: flex;
   justify-content: space-between;
   align-content: center;
   text-align: left;
   inline-size: 100%;
   background-color: rgb(39, 39, 39);
-  height: minmax(10%, 50%);
-  width: 100%;
   border-bottom:solid rgb(136, 136, 136) 1px;
 }
 .topitem{
   color: white;
-  padding: 2%;
-  font-size: xx-large;
+  padding: 1%;
+  font-size: clamp(16px, 3vw, 200px);
   font-weight: 700;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -34,16 +44,40 @@ a{
   justify-content: center;
   align-content: center;
   text-align: center;
-  padding: 2%;
+  padding: 5% 5% 5% 5%;
   background: rgb(254,113,20);
   background: linear-gradient(148deg, rgba(254,113,20,1) 0%, rgba(57,57,57,1) 100%);
-  height: minmax(20%, 50%);
+  height: minmax(20%, 30%);
   width: 100%;
 }
 .text{
   color: white;
   padding: 1%;
-  font-size: 200%;
-  font-weight: 700;
+  font-size: clamp(24px, 4vw, 200px);
+  font-weight: 300;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.modeltext{
+  color: black;
+  padding: 7% 7% 2% 7%;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-size: 300%;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+}
+.modeldesc{
+  color: black;
+  font-size: clamp(24px, 4vw, 200px);
+  font-weight: 200;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5% 10% 5% 10%;
+  width: 100%;
+  justify-content: left;
+  text-align: justify;
+}
+.image{
+  padding: 5% 10% 5% 10%;
+  width: 100%;
 }
